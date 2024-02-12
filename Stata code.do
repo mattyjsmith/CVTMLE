@@ -3,6 +3,20 @@
 * Author: Matthew J. Smith
 ******************************************************************************
 
+
+/*
+
+NOTE! 
+
+This code relies on updates to the ELTMLE command that are not yet publicly available in Stata.
+
+We have made the code available here for the interested reader. 
+
+Please wait until all recent ELTMLE updates are available before attempting to run the code for yourself.
+
+*/
+
+
 *****	
 * Change working directory
 *****
