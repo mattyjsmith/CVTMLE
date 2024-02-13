@@ -120,7 +120,7 @@ You will need to change the values for:
 			
 			// Run TMLE
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, tmle elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, tmle elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
@@ -138,7 +138,7 @@ You will need to change the values for:
 			
 			// Run CVTMLE
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, cvtmle cvfolds(10) elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, cvtmle cvfolds(10) elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
@@ -154,7 +154,7 @@ You will need to change the values for:
 			
 			// Run CVTMLE(Qg)
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, cvtmleQg cvfolds(10) elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, cvtmleQg cvfolds(10) elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
@@ -170,7 +170,7 @@ You will need to change the values for:
 			
 			// Run TMLE with RF
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, tmleglsrf elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, tmleglsrf elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
@@ -187,7 +187,7 @@ You will need to change the values for:
 			
 			// Run CVTMLE(Q) with RF
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, cvtmleglsrf cvfolds(10) elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, cvtmleglsrf cvfolds(10) elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
@@ -205,7 +205,7 @@ You will need to change the values for:
 			
 			// Run CVTMLE(Qg) with RF
 			*use "simCVeltmledata", clear
-			eltmle Y A z1 z2 z3 z4 z5 z6, cvtmleQgglsrf cvfolds(10) elements
+			eltmle Y A z1 z2 z3 z4 z5 z6 z7 z8, cvtmleQgglsrf cvfolds(10) elements
 			local logOR = log(r(MOR))
 			local SElogOR = r(SE_log_MOR)
 			local ATE = r(ATEtmle)
